@@ -10,7 +10,7 @@ public class TestNG {
 
     @BeforeTest
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\priya\\Downloads\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
     }
 
